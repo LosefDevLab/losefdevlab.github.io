@@ -34,4 +34,4 @@
 <h6>QQ群：620351895</h6>
 <h6>discord:discord.gg/caab2VGue2</h6>
 <h6>(STU.)XYLCS STUDIO 2018-Now 创作，永不停歇！</h6>
-<h6>回声留言:不是，哥们（龙山凤），我出差这么多天你一秒钟动画都没有做是吧？--Lixyv</h6>
+<h6>XMEME:666这个古希腊掌管土豆的神开挂--和losef同一个MC服的玩家</h6>
