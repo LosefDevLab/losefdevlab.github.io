@@ -29,10 +29,11 @@
 <p>&nbsp;</p>
 
 <div align="center">
+<a href="url">->XYLCS创作者计划(加入工作室途径)<-</a>
 <h6>EMAIL:xylcsstudio@outlook.com/XYLCS</h6>
 <h6>QQ:3237428166(工作室室长Lixyv)/822415187(阿龙)</h6>
 <h6>QQ群：620351895</h6>
 <h6>discord:discord.gg/caab2VGue2</h6>
 <h6>(STU.)XYLCS STUDIO 2018-Now 创作，永不停歇！</h6>
 <h6>XMEME:666这个古希腊掌管土豆的神开挂--和losef同一个MC服的玩家</h6>
-<h6>Github Page Edit Rev:2024-8-13-3</h6>
+<h6>Github Page Edit Rev:2024-8-16-1</h6>
