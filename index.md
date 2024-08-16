@@ -29,7 +29,7 @@
 <p>&nbsp;</p>
 
 <div align="center">
-<a href="Creator/main.html">->XYLCS创作者计划(加入工作室途径)<-</a>
+<a href="xylcs-studio.github.io/Creator/main">->XYLCS创作者计划(加入工作室途径)<-</a>
 <h6>EMAIL:xylcsstudio@outlook.com/XYLCS</h6>
 <h6>QQ:3237428166(工作室室长Lixyv)/822415187(阿龙)</h6>
 <h6>QQ群：620351895</h6>
