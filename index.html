@@ -1,48 +1,142 @@
-<link rel="icon" href="images/index/xylcs2.png" type="image/png">
-<img src="images/index/xylcs.png"  style="zoom: 5%;" />
-<div align="center">
-<h1>XYLCS STUDIO</h1>
-<h3>XYLCS工作室是计算机、游戏、动画方面的自由创作工作室。</h3>
-<p></p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/index/xylcs2.png" type="image/png">
+    <title>XYLCS Studio</title>
+    <style>
+        body {
+            font-family: "Arial", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            text-align: center;
+        }
 
-<p></p>
-<img src="images/index/XIT.png"  style="zoom: 5%;" />
-<h2>XIT工作室</h2>
-<p>XIT工作室是xylcs工作室的计算机技术主要子工作室，主要创作软件等电子技术</p>
-<a url="github.com/xylcsstudio-github">->前往GitHub组织查看已创作内容 github.com/xylcsstudio-github<-</a>
-<p>我们还有一个实验性创作的开发实验室，实验室里面的创作氛围很高，我们在实验室里面也热衷于创作</p>
-<a url="github.com/LosefDevLab">->查看实验室至今的实验开发创作 github.com/LosefDevLab<-</a>
+        h1 {
+            font-size: 3em;
+            color: #1a73e8;
+            margin: 20px 0;
+        }
 
-<p></p>
-<img src="images/index/LOG.png"  style="zoom: 5%;" />
-<h2>LOG工作室</h2>
-<p>XYLCSJAVA运营工作室 开设多个Minecraft玩法服务器 创作Minecraft相关内容</p>
+        h2 {
+            font-size: 2em;
+            color: #00796b;
+            margin: 15px 0;
+        }
 
-<p></p>
-<img src="images/index/AGC.png"  style="zoom: 5%;" />
-<h2>AGC工作室</h2>
-<p>守护电脑制作组在这里！AGC是XYLCS工作室的视频/动画作品主要场景制作者，代表作《守护电脑》 已发布创作作品请前往下面写着的视频平台账号</p>
+        h3 {
+            font-size: 1.5em;
+            color: #444;
+        }
 
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+        .studio-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin: 40px auto;
+            padding: 0 20px;
+            max-width: 1200px;
+        }
 
-<div align="center">
-<h6>- XYLCS Studio</h6>
-<h6>- 一个动画游戏计算机创作方面的自由创作工作室🎉</h6>
-<h6>- 工作室注重一个创作理念:创作，永不停歇！这也是我们工作室的一句经典老话</h6>
-<h6>- 我们很喜欢创作，从2018年开始一直在创作（创作虽然永不停歇，但是也有可能创作烂作用不停歇，这个是有点搞笑的hahhahh）</h6>
-<h6>- 我们希望创作是一种自由性质的有创新性质的创作，我们也一直在执行这一种类型的创作</h6>
-<h6>- 我们期盼打造一个更好的创作社区，希望你能加入我们的创作社区！</h6>
-<h6>- Discord：https://discord.gg/caab2VGue2</h6>
-<h6>- X：@xylcsstudio</h6>
-<h6>- Bilibili：xylcs工作室官方账号</h6>
-<h6>- Email：xylcsstudio@outlook.com</h6>
-<h6>- Youtube Channel：XYLCS-Studio</h6>
-<a href="Creator/main.html">->XYLCS创作者计划(加入工作室途径)<-</a>
-<h6>(STU.)XYLCS STUDIO 2018-Now 创作，永不停歇！</h6>
-<h6>XMEME:龙山凤的弟弟所在的学校的教导主任对一个说脏话的学生的一个言论"那操你妈是怎么说的？"(</h6>
-<h6>Github Page Edit Rev:2024-11-23-8</h6>
+        .studio-section {
+            background: linear-gradient(to bottom, #ffffff, #e0f7fa);
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            max-width: 300px;
+            text-align: center;
+            flex: 1 1 calc(30% - 20px);
+            min-width: 260px;
+        }
+
+        .studio-section img {
+            border-radius: 10px;
+            margin-bottom: 15px;
+            max-width: 100%;
+        }
+
+        .studio-section a {
+            text-decoration: none;
+            font-weight: bold;
+            color: #1a73e8;
+        }
+
+        .studio-section a:hover {
+            color: #0059c1;
+            text-decoration: underline;
+        }
+
+        .footer {
+            margin-top: 50px;
+            padding: 20px;
+            background: #004d40;
+            color: white;
+            font-size: 0.9em;
+            border-radius: 15px;
+        }
+
+        .footer a {
+            color: #1de9b6;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="images/index/xylcs.png" style="width: 100px;" alt="XYLCS Logo">
+        <h1>XYLCS STUDIO</h1>
+        <h3>XYLCS工作室是计算机、游戏、动画方面的自由创作工作室。</h3>
+    </div>
+
+    <div class="studio-container">
+        <!-- XIT工作室 -->
+        <div class="studio-section">
+            <img src="images/index/XIT.png" alt="XIT Studio">
+            <h2>XIT工作室</h2>
+            <p>XIT工作室是xylcs工作室的计算机技术主要子工作室，主要创作软件等电子技术。</p>
+            <a href="https://github.com/xylcsstudio-github">->前往GitHub组织查看已创作内容<-</a>
+            <p>我们还有一个实验性创作的开发实验室，实验室里面的创作氛围很高。</p>
+            <a href="https://github.com/LosefDevLab">->查看实验室至今的实验开发创作<-</a>
+        </div>
+
+        <!-- LOG工作室 -->
+        <div class="studio-section">
+            <img src="images/index/LOG.png" alt="LOG Studio">
+            <h2>LOG工作室</h2>
+            <p>XYLCSJAVA运营工作室 开设多个Minecraft玩法服务器 创作Minecraft相关内容。</p>
+        </div>
+
+        <!-- AGC工作室 -->
+        <div class="studio-section">
+            <img src="images/index/AGC.png" alt="AGC Studio">
+            <h2>AGC工作室</h2>
+            <p>守护电脑制作组在这里！AGC是XYLCS工作室的视频/动画作品主要场景制作者。</p>
+            <p>代表作《守护电脑》已发布创作作品请前往下面的视频平台账号。</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h6>- 一个动画游戏计算机创作方面的自由创作工作室🎉</h6>
+        <h6>- 工作室注重一个创作理念:创作，永不停歇！这也是我们工作室的一句经典老话</h6>
+        <h6>- 我们很喜欢创作，从2018年开始一直在创作（创作虽然永不停歇，但是也有可能创作烂作用不停歇，这个是有点搞笑的hahhahh）</h6>
+        <h6>- 我们希望创作是一种自由性质的有创新性质的创作，我们也一直在执行这一种类型的创作</h6>
+        <h6>- 我们期盼打造一个更好的创作社区，希望你能加入我们的创作社区！</h6>
+        <h6>- 创作，永不停歇！</h6>
+        <h6>- Discord: <a href="https://discord.gg/caab2VGue2">https://discord.gg/caab2VGue2</a></h6>
+        <h6>- X：@xylcsstudio</h6>
+        <h6>- Bilibili：xylcs工作室官方账号</h6>
+        <h6>- Email：xylcsstudio@outlook.com</h6>
+        <h6>- Youtube Channel：XYLCS-Studio</h6>
+        <a href="Creator/main.html">->XYLCS创作者计划(加入工作室途径)<-</a>
+        <h6>(STU.)XYLCS STUDIO 2018-Now 创作，永不停歇！</h6>
+    </div>
+</body>
+</html>
